@@ -68,6 +68,7 @@
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/vtu24686-vasu/APS/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/vtu24686-vasu/APS/tree/master/0387-first-unique-character-in-a-string) |
 ## Counting
 |  |
@@ -86,6 +87,7 @@
 ## Stack
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/vtu24686-vasu/APS/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/vtu24686-vasu/APS/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/vtu24686-vasu/APS/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/vtu24686-vasu/APS/tree/master/0739-daily-temperatures) |
@@ -122,6 +124,7 @@
 ## Design
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/vtu24686-vasu/APS/tree/master/0232-implement-queue-using-stacks) |
 | [0901-online-stock-span](https://github.com/vtu24686-vasu/APS/tree/master/0901-online-stock-span) |
 ## Data Stream
 |  |
