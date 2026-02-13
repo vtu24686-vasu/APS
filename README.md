@@ -171,4 +171,20 @@
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/vtu24686-vasu/APS/tree/master/0621-task-scheduler) |
+## Tree
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/vtu24686-vasu/APS/tree/master/0100-same-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/vtu24686-vasu/APS/tree/master/0100-same-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/vtu24686-vasu/APS/tree/master/0100-same-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/vtu24686-vasu/APS/tree/master/0100-same-tree) |
 <!---LeetCode Topics End-->
