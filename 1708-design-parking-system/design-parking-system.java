@@ -1,6 +1,7 @@
 class ParkingSystem {
-
-    int big, medium, small;
+    int big;
+    int medium;
+    int small;
 
     public ParkingSystem(int big, int medium, int small) {
         this.big = big;
@@ -25,6 +26,13 @@ class ParkingSystem {
                 return true;
             }
         }
+
         return false;
     }
 }
+
+/**
+ * Your ParkingSystem object will be instantiated and called as such:
+ * ParkingSystem obj = new ParkingSystem(big, medium, small);
+ * boolean param_1 = obj.addCar(carType);
+ */
