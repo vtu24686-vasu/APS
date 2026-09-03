@@ -8,37 +8,46 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-import java.util.PriorityQueue;
-
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
+
+
+        
         if (lists == null || lists.length == 0) {
             return null;
         }
 
-        PriorityQueue<ListNode> minHeap =
-            new PriorityQueue<>((a, b) -> a.val - b.val);
+        // Min heap based on node value
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(
+            (a, b) -> a.val - b.val
+        );
 
-        // Add head of each list
-        for (ListNode node : lists) {
-            if (node != null) {
-                minHeap.offer(node);
+        // Add first node of every list
+        for (ListNode list : lists) {
+            if (list != null) {
+                pq.add(list);
             }
         }
 
-        ListNode dummy = new ListNode(-1);
+        ListNode dummy = new ListNode(0);
         ListNode current = dummy;
 
-        while (!minHeap.isEmpty()) {
-            ListNode smallest = minHeap.poll();
-            current.next = smallest;
+        while (!pq.isEmpty()) {
+            // Get smallest node
+            ListNode node = pq.poll();
+
+            // Add it to result
+            current.next = node;
             current = current.next;
 
-            if (smallest.next != null) {
-                minHeap.offer(smallest.next);
+            // Add next node from the same list
+            if (node.next != null) {
+                pq.add(node.next);
             }
         }
 
         return dummy.next;
     }
 }
+
+    
